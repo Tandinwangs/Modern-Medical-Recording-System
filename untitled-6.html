@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no">
+    <title>home</title>
+    <link rel="stylesheet" href="assets/bootstrap/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Abhaya+Libre">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Abril+Fatface">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Bitter:400,700">
+    <link rel="stylesheet" href="assets/fonts/fontawesome-all.min.css">
+    <link rel="stylesheet" href="assets/fonts/font-awesome.min.css">
+    <link rel="stylesheet" href="assets/fonts/ionicons.min.css">
+    <link rel="stylesheet" href="assets/fonts/simple-line-icons.min.css">
+    <link rel="stylesheet" href="assets/fonts/fontawesome5-overrides.min.css">
+    <link rel="stylesheet" href="assets/css/Contact-Form-Clean.css">
+    <link rel="stylesheet" href="assets/css/Features-Blue.css">
+    <link rel="stylesheet" href="assets/css/Footer-Dark.css">
+    <link rel="stylesheet" href="assets/css/Header-Dark.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.5.2/animate.min.css">
+    <link rel="stylesheet" href="assets/css/Login-Form-Dark-1.css">
+    <link rel="stylesheet" href="assets/css/Login-Form-Dark.css">
+    <link rel="stylesheet" href="assets/css/Navigation-Clean.css">
+    <link rel="stylesheet" href="assets/css/styles.css">
+</head>
+
+<body>
+    <nav class="navbar navbar-light navbar-expand-md bg-success navigation-clean">
+        <div class="container"><button data-toggle="collapse" class="navbar-toggler" data-target="#navcol-1"><span class="sr-only">Toggle navigation</span><span class="navbar-toggler-icon"></span></button><img class="rounded-circle" src="assets/img/log.png" width="120" height="120"
+                style="margin-left: 0px;">
+            <div class="collapse navbar-collapse" id="navcol-1">
+                <h2 class="text-center"><strong>MODERN MEDICAL RECORDING SYSTEM</strong></h2>
+                <ul class="nav navbar-nav ml-auto">
+                    <li class="nav-item" role="presentation" style="margin-left: -10px;"><a class="nav-link border rounded-0 shadow-lg" data-bs-hover-animate="pulse" href="untitled-1.html" style="margin-right: 10px;"><strong>HOME</strong></a></li>
+                    <li class="nav-item" role="presentation"><a class="nav-link border rounded-0 shadow-lg" data-bs-hover-animate="pulse" href="untitled-6.html" style="margin-right: 10px;"><strong>LOGIN</strong></a></li>
+                    <li class="nav-item" role="presentation"><a class="nav-link border rounded-0 shadow-lg d-inline float-right" data-bs-hover-animate="pulse" href="untitled-5.html" style="margin-right: -100px;"><strong>REGISTER</strong></a></li>
+                    <li class="nav-item" role="presentation"><a class="nav-link border rounded-0 shadow-lg d-inline float-right" data-bs-hover-animate="pulse" href="index.html" style="margin-right: 30px;margin-top: 50px;"><strong>LOGOUT</strong></a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <div class="bg-success login-dark" style="background-image: url(&quot;assets/img/stethoscope-1584223_1920.jpg&quot;);">
+        <form class="text-info" method="post" action="plogin.php">
+            <h2 class="sr-only">Login Form</h2>
+            <p class="text-uppercase text-center text-white" style="color: white;">LOGIN</p><img class="picon" src="assets/img/personicon.png" style="background-color: gray;"><p style="margin-top: 10px;text-align: center;color: red; justify-content: center;" ><?php echo $error; ?></p>
+            <div></div>
+            <div class="form-group">
+                <div><label class="text-center text-white">CID No.&nbsp;<input class="form-control" type="text" name="cid" placeholder="Citizenship id number"></label>
+                    <div></div>
+                </div>
+            </div>
+            <div class="form-group"><button class="btn btn-primary btn-block" type="submit" name="submit">Login</button></div>
+        </form>
+    </div>
+    <div class="footer-dark">
+        <footer>
+            <div class="container">
+                <div class="row">
+                    <div class="col-sm-6 col-md-3 item">
+                        <h3>Mission</h3>
+                        <ul>
+                            <li><a href="#"></a></li>
+                            <li></li>
+                            <li><a href="#"></a></li>
+                        </ul>
+                        <p class="text-white-50">To keep the systematic records of every patient.&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;To transform the manual work into digitalized&nbsp;way.</p>
+                    </div>
+                    <div class="col-sm-6 col-md-3 item">
+                        <h3>Vision</h3>
+                        <p class="text-white-50">To replace the Health Book that contains valuable information on a patient’s medical report which could be lost easily. </p>
+                        <ul>
+                            <li><a href="#"></a></li>
+                            <li><a href="#"></a></li>
+                            <li><a href="#"></a></li>
+                        </ul>
+                    </div>
+                    <div class="col-md-6 item text">
+                        <h3>MMRS</h3>
+                        <p class="text-white" style="color: rgb(240,249,255);">We will give our best service to the people of Gyalpozhing with utmost dedication.</p>
+                        <p class="text-center text-white" style="color: rgb(240,249,255);">Scope: Our project is for recording the patient detail in the database and it is scope only to the Gyalpozhing BHU.</p>
+                    </div>
+                    <div class="col item social"><a href="#"><i class="icon ion-social-facebook"></i></a><a href="#"><i class="icon ion-social-twitter"></i></a><a href="#"><i class="icon ion-social-snapchat"></i></a><a href="#"><i class="icon ion-social-instagram"></i></a></div>
+                </div>
+                <p class="copyright">MMRS © 2021</p>
+            </div>
+        </footer>
+    </div>
+    <script src="assets/js/jquery.min.js"></script>
+    <script src="assets/bootstrap/js/bootstrap.min.js"></script>
+    <script src="assets/js/bs-init.js"></script>
+</body>
+
+</html>

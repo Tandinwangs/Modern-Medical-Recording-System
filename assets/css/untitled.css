@@ -1,0 +1,27 @@
+img {
+  border-style: none;
+  border-radius: 50%;
+  width: 100px;
+}
+
+.mb-5, .my-5 {
+  margin-bottom: 3rem!important;
+  width: 200px;
+  height: 200px;
+}
+
+.profile {
+  width: 150px;
+}
+
+#mainNav .navbar-nav li.nav-item a.nav-link {
+  border: solid 1px;
+  border-radius: 50%;
+}
+
+.contact-clean form .btn-primary {
+  background-color: #055ada !important;
+  margin-top: 15px;
+  color: #fff;
+}
+
